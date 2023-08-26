@@ -10,6 +10,7 @@ body {
   display: grid;
   place-items: center;
   counter-reset: game;
+  background: #222;
 }
 
 .score {
