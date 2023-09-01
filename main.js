@@ -1,4 +1,4 @@
-const rabbit = document.querySelectorAll(".rabit");
+const rabbit = document.querySelectorAll(".rabbit");
 const score = document.getElementById("score");
 
 let count = 0;
