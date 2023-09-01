@@ -44,7 +44,10 @@ h1 {
   width: 70px;
   height: 90px;
   transform: translate(60px, 130px);
-  animation: saltar 1s ease-in-out infinite;
+  animation-name: saltar;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
   z-index: 1;
 }
 .ear-left {
@@ -91,7 +94,10 @@ h1 {
   width: 70px;
   height: 90px;
   transform: translate(170px, 130px);
-  animation: saltar2 1.5s ease infinite;
+  animation-name: saltar2;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
   z-index: 2;
 }
 .layer-3 {
@@ -119,7 +125,10 @@ h1 {
   width: 70px;
   height: 90px;
   transform: translate(25px, 230px);
-  animation: saltar3 1s ease-out infinite;
+  animation-name: saltar3;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
   z-index: 4;
 }
 .layer-5 {
@@ -148,7 +157,10 @@ h1 {
   width: 70px;
   height: 90px;
   transform: translate(205px, 330px);
-  animation: saltar4 2s ease infinite;
+  animation-name: saltar4;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
   z-index: 6;
 }
 .layer-7 {
